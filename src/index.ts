@@ -13,7 +13,6 @@ const LANGUAGES = ['en-us', 'pt'];
 dotenv.config();
 
 const openaiClient = new OpenAI({
-  organization: 'org-YPozMkQNmyeBTCLeKYWiPLkr',
   apiKey: process.env.OPENAI_API_KEY,
 });
 
