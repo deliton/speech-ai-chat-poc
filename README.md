@@ -66,9 +66,9 @@ npm start
 
 ## To interact with the application:
 
-- Press "P" to start or stop recording.
+- Press "Enter" key to start or stop recording.
 - Speak into your microphone when recording is active.
-- Press "P" again to stop recording and process your speech.
+- Press "Enter" again to stop recording and process your speech.
 - View ChatGPT's response in the terminal.
 
 ## Conclusion
