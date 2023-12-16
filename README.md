@@ -1,6 +1,6 @@
 # Voice Chat with ChatGPT
 
-![image](https://github.com/deliton/speech-ai-chat-poc/assets/47995046/a2944873-639a-4758-885e-70727d394715)
+<img src="https://github.com/deliton/speech-ai-chat-poc/assets/47995046/a2944873-639a-4758-885e-70727d394715" width="320">
 
 ## Introduction
 
@@ -26,34 +26,40 @@ Before running the application, ensure you have the following:
 - Sox installed for audio recording (Linux/Mac) or an equivalent audio tool for Windows. To get it installed:
   - For Mac: `brew install sox`
   - For Linux: `sudo apt-get install sox libsox-fmt-all`
-  - For Windows: You can download the (https://github.com/gillesdemey/node-record-lpcm16#:~:text=download%20the%20binaries)[binaries] or use (https://chocolatey.org/install)[chocolately] to install the package: `choco install sox.portable`
+  - For Windows: You can download the [binaries](https://github.com/gillesdemey/node-record-lpcm16#:~:text=download%20the%20binaries) or use [chocolately](https://chocolatey.org/install) to install the package: `choco install sox.portable`
 
 ## How to run
 
-- Clone the repository:
+#### Clone the repository:
 
 ```bash
 git clone git@github.com:gillesdemey/node-record-lpcm16.git
 cd speech-ai-chat-poc
 ```
 
-- Install dependencies:
+#### Install dependencies:
+
 ```bash
 npm install
 ```
 
-- Set up your OpenAI API key:
-    - Create a .env file in the root of the project.
-    - Add the following line to the .env file:
-    ```bash
-    OPENAI_API_KEY=your_openai_api_key
-    ```
-- Compile TypeScript to JavaScript:
+#### Set up your OpenAI API key:
+
+- Create a .env file in the root of the project.
+- Add the following line to the .env file:
+
+```bash
+OPENAI_API_KEY=your_openai_api_key
+```
+
+#### Compile TypeScript to JavaScript:
+
 ```bash
 npm run build
 ```
 
-- Run the application:
+#### Run the application:
+
 ```bash
 npm start
 ```
@@ -65,6 +71,6 @@ npm start
 - Press "P" again to stop recording and process your speech.
 - View ChatGPT's response in the terminal.
 
-
 ## Conclusion
+
 This project demonstrates a way to interact with ChatGPT using voice, leveraging OpenAI's powerful language and speech processing models. It serves as a foundational experiment for more advanced voice-interactive applications in the future.
