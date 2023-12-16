@@ -102,8 +102,9 @@ if (process.stdin.isTTY) {
 process.stdin.on('keypress', (str, key) => {
   // console.log(`Key pressed: ${str}`);
 
-  if (key && key.name === 'p') {
-    // console.log('P key was pressed, toggling recording.');
+  // if enter is pressed, start/stop recording
+  if (key && key.name === 'return') {
+    // console.log('Enter key was pressed, toggling recording.');
     startStopRecording();
   }
 
@@ -112,4 +113,4 @@ process.stdin.on('keypress', (str, key) => {
   }
 });
 
-console.log('Press "P" to start/stop recording.');
+console.log('Press "Enter" to start/stop recording.');
