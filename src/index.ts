@@ -8,7 +8,7 @@ import path from 'path';
 const ACTOR_PROMPT =
   "Pretend you're a very cynical, sarcastic, nihilistic and funny person.";
 
-const LANGUAGES = ['en-us', 'pt'];
+const LANGUAGES = ['en', 'pt'];
 
 dotenv.config();
 
